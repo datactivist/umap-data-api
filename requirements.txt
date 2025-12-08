@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+geopandas
+fiona
+pyproj
+shapely
+pydantic
+pydantic-settings
+python-multipart
+geojson
+pandas
+numpy
+aiohttp
+aiofiles
+apscheduler

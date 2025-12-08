@@ -1,0 +1,8 @@
+# Test requirements (for development)
+pytest
+httpx
+black
+blacken-docs
+flake8
+autoflake
+djlint
