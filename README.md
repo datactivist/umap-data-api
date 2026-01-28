@@ -23,7 +23,8 @@ Voici les prétraitements nécessaires pour chaque source de données :
 - Les données doivent être au format GeoJSON valide.
 
 Pour ajouter ou modifier des sources de données, ajoutez les fichiers de source de données dans le répertoire `data/`.
-Le dossier doit être nommé ainsi : `data/<source_name>/<source_name>_<geographic_filter>.geojson`
+Le dossier doit être nommé ainsi : `data/<source_name>/<source_name>_<geographic_filter>.geojson`  
+Par exemple `data/arbresnamr/arbresnamr_Toulouse.geojson`  
 Les données et leurs filtres seront automatiquement chargées au démarrage de l'application si le système de nommage est respecté.
 
 Attention : l’outil n’est pas un outil de géomatique, il ne permet pas de réaliser de géotraitement sur les données importées. Si vous souhaitez afficher des données comprenant une analyse, vous devez réaliser l’analyse en amont dans un logiciel du type QGis, travailler la symbologie et réaliser un export des données avec la symbologie intégrée pour ensuite l’importer dans le POC.
@@ -43,3 +44,4 @@ This project is licensed under the terms specified in the LICENSE file.
 ## Support
 
 For issues and questions, please use the GitHub issue tracker.
+
